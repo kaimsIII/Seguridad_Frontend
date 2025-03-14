@@ -130,14 +130,4 @@ try {
 }
 ```
 
----
-
-## 🌟 Resumen Rápido
-✅ **Validar datos en el frontend** antes de enviarlos al backend.  
-✅ **Evitar `innerHTML`, `eval()` y `localStorage`** para datos sensibles.  
-✅ **Siempre usar HTTPS** y no cargar recursos inseguros.  
-✅ **Deshabilitar botones y limitar intentos de login.**  
-✅ **Capturar errores con `try...catch` y no mostrar detalles técnicos.**  
-
-Siguiendo estas reglas, evitaremos problemas de seguridad en nuestro frontend. 🚀
 
