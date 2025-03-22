@@ -2,7 +2,6 @@
 
 🔒Este manual contiene reglas y buenas prácticas de seguridad para el equipo de frontend, basadas en OWASP. Sigue estas recomendaciones para evitar vulnerabilidades🔒
 
-Si tu equipo de frontend solo utiliza HTML, CSS y JavaScript puro (sin frameworks como React, Angular o Vue), los lineamientos basados en OWASP que deben considerar se centran en prácticas de seguridad fundamentales para estos lenguajes y el entorno del navegador. A continuación, te detallo las recomendaciones específicas y adaptadas a este contexto:
 
 1. **Prevención de Cross-Site Scripting (XSS):**
    - **Sanea y escapa datos dinámicos:** Antes de insertar cualquier dato (como entradas de usuario o respuestas del servidor) en el DOM, esa información tiene que escaparse  manualmente. Por ejemplo:
